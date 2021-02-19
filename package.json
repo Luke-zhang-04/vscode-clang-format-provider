@@ -24,7 +24,8 @@
     "Clang",
     "LLVM",
     "Protobuf",
-    "CUDA"
+    "CUDA",
+    "Processing"
   ],
   "main": "./out/src/extension",
   "activationEvents": [
@@ -41,7 +42,8 @@
     "onLanguage:apex",
     "onLanguage:glsl",
     "onLanguage:hlsl",
-    "onLanguage:cuda"
+    "onLanguage:cuda",
+    "onLanguage:pde"
   ],
   "contributes": {
     "configuration": {
