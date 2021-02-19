@@ -273,6 +273,21 @@
           "default": "",
           "description": "clang-format fallback style for CUDA, left empty to use clang-format.fallbackStyle"
         },
+        "clang-format.language.pde.enable": {
+          "type": "boolean",
+          "default": true,
+          "description": "enable formatting for processing (requires reloading Visual Studio Code)"
+        },
+        "clang-format.language.pde.style": {
+          "type": "string",
+          "default": "",
+          "description": "clang-format fallback style for processing, left empty to use clang-format.style"
+        },
+        "clang-format.language.pde.fallbackStyle": {
+          "type": "string",
+          "default": "",
+          "description": "clang-format fallback style for processing, left empty to use clang-format.fallbackStyle"
+        },
         "clang-format.assumeFilename": {
           "type": "string",
           "default": "",
