@@ -1,10 +1,9 @@
 import * as vscode from 'vscode';
-import cp = require('child_process');
-import path = require('path');
-import {MODES,
-        ALIAS} from './clangMode';
+import cp from 'child_process';
+import path from 'path';
+import {MODES, ALIAS} from './clangMode';
 import {getBinPath} from './clangPath';
-import sax = require('sax');
+import sax from 'sax';
 
 export let outputChannel = vscode.window.createOutputChannel('Clang-Format');
 
