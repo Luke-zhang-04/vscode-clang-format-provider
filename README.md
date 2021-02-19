@@ -2,6 +2,12 @@
 
 [Clang-Format](http://clang.llvm.org/docs/ClangFormat.html) is a tool to format C/C++/Java/JavaScript/Objective-C/Objective-C++/Protobuf code. It can be configured with a config file within the working folder or a parent folder. Configuration see: http://clang.llvm.org/docs/ClangFormatStyleOptions.html
 
+## Installation
+```bash
+vsce package
+
+code --install-extension clang-format-1.9.0.vsix
+```
 
 ## Usage
 
